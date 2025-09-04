@@ -2,110 +2,84 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Hiirbaf // Emo Punk</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet">
+  <title>Hiirbaf // Emo Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
   <style>
     body {
-      background: url('https://i.ibb.co/5c6cRjV/grunge-bg.jpg') repeat;
-      color: #fff;
+      background: black;
+      color: white;
       font-family: 'Special Elite', monospace;
       margin: 0;
       padding: 0;
     }
     header {
-      background: black;
-      border-bottom: 5px solid red;
-      text-align: center;
-      padding: 20px;
-    }
-    header h1 {
-      font-family: 'Nosifer', cursive;
-      font-size: 3em;
-      color: #ff004c;
-      text-shadow: 2px 2px 0 #000, 4px 4px 0 #00ffea;
+      background: url('https://i.ibb.co/xgGHsHT/mcr-banner.jpg') center no-repeat;
+      background-size: cover;
+      height: 150px;
+      border-bottom: 4px solid red;
     }
     .section {
       padding: 20px;
-      margin: 20px;
-      border: 3px solid #ff004c;
-      background: rgba(0,0,0,0.8);
-      box-shadow: 6px 6px 0 #00ffea;
     }
-    .title {
-      font-size: 1.6em;
-      color: #00ffea;
-      border-bottom: 2px dashed #ff004c;
+    h2 {
+      font-size: 1.8em;
+      color: red;
       margin-bottom: 10px;
-      font-family: 'Nosifer', cursive;
     }
-    a {
-      color: #ff004c;
-      text-decoration: none;
+    .profile {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .profile img {
+      width: 150px;
+      border: 3px solid white;
+      transform: rotate(-2deg);
+      box-shadow: 5px 5px 0 red;
+    }
+    .bio {
+      max-width: 400px;
+      line-height: 1.5;
+    }
+    .side-box {
+      margin-top: 20px;
+      padding: 15px;
+      border: 2px dashed #aaa;
+      background: rgba(255,255,255,0.05);
+    }
+    .highlight {
+      color: red;
       font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-      color: #00ffea;
-    }
-    .spotify-card img {
-      border: 3px solid #fff;
-      border-radius: 12px;
-      box-shadow: 6px 6px 0 #ff004c;
-      max-width: 100%;
-    }
-    .divider {
-      text-align: center;
-      margin: 30px 0;
-    }
-    .divider img {
-      max-width: 100%;
-    }
-    .gif {
-      display: block;
-      margin: 20px auto;
-      max-width: 200px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>☠ Hiirbaf ☠</h1>
-    <img src="https://i.ibb.co/SVL3kF1/chain-divider.png" alt="Chains divider">
-  </header>
+  <header></header>
 
   <div class="section">
-    <div class="title">📺 Sobre mí</div>
-    <p>17 años · She/Her · Amante del punk, emo y cómics 🎸</p>
-    <p>Favs: MCR, Green Day, Paramore, Fall Out Boy</p>
-    <img class="gif" src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="glitter skull">
-  </div>
-
-  <div class="divider">
-    <img src="https://i.ibb.co/SVL3kF1/chain-divider.png" alt="Chains divider">
-  </div>
-
-  <div class="section">
-    <div class="title">🎶 Spotify</div>
-    <div class="spotify-card">
-      <a href="https://data-card-for-spotify.herokuapp.com/card?user_id=hiirbaf" target="_blank">
-        <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=hiirbaf" alt="Spotify Card">
-      </a>
+    <div class="profile">
+      <img src="https://i.ibb.co/Df1yL7t/sample-pic.jpg" alt="foto emo">
+      <div class="bio">
+        <h2>JIAN / JI !</h2>
+        <p>7TEEN · <span class="highlight">she/her</span> · filo '08</p>
+        <div class="side-box">
+          <b>Favs:</b> My Chemical Romance, Green Day, Paramore, FOB  
+          <br><b>Others:</b> Doctor Who, Good Omens, MCU, Kpop
+        </div>
+      </div>
     </div>
-    <iframe style="border-radius:12px; margin-top:20px;" 
-      src="https://open.spotify.com/embed/playlist/37i9dQZF1DX3PIPIT6lEg5?utm_source=generator" 
-      width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media" loading="lazy">
-    </iframe>
   </div>
 
   <div class="section">
-    <div class="title">⚠️ BYF</div>
-    <p>Soy menor · No acepto gente irrespetuosa · No tolero hate hacia mis bandas fav.</p>
+    <h2>BYF!</h2>
+    <p>I am a minor! Please be mindful...  
+    <br><span class="highlight">sexual innuendos</span>...  
+    <br> Please <span class="highlight">educate</span> me if I’ve done something wrong!</p>
   </div>
 
   <div class="section">
-    <div class="title">🚫 DNI</div>
-    <p>Incest shippers · Gente tóxica · Drama innecesario · Anti-MCR</p>
-    <img class="gif" src="https://media.giphy.com/media/l0MYr2ALXoGqI4zNS/giphy.gif" alt="emo gif">
+    <h2>DNI!</h2>
+    <p>-- incest shippers, antis, people who spread drama...</p>
   </div>
 </body>
 </html>
